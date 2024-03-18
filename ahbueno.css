@@ -1,0 +1,180 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #000000;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration:none;
+    color: rgb(19, 66, 196);
+    transition: .3s;
+}
+
+section {
+    padding: 80px 20px;
+    text-align: center;
+}
+.sebas{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 500;
+}
+#inicio{
+    background-color: rgb(88, 20, 197);
+}
+.datoss{
+    display: flex;
+    justify-content: space-around;
+    border: 300px;
+    margin-top: 80px;
+    
+}
+
+.datoss1 {
+    margin-right: 60%;
+    border-radius: 20px;
+    margin-top: 70px;
+    margin-bottom: 10px;
+    
+    
+}
+.datoss1 p{
+    text-decoration: 10px solid black;
+}
+
+.datoss2{
+    height: 3%;
+    padding-left: 10px;
+    color: #000000;
+    margin-bottom: 70px;
+}
+.datoss2 p {
+    text-decoration: none;
+
+}
+
+
+#foto{
+    background-color: #695bb8;
+}
+
+#gus{
+    background-color: rgb(88, 20, 197);
+}
+
+.image{
+    width: 500px;
+    position: relative;
+}
+
+.mamu{
+    height: 300px;
+    width: 90%;
+    display: flex;
+    margin: auto;
+    border:#000000 1px solid;
+}
+
+.content{
+    width: 91%;
+    height: 100%;
+    top: 0;
+    left: 20px;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+    transition: 0.6s;
+}
+
+.content:hover{
+    opacity: 1;
+}
+
+.content h2{
+    font-size: 40px;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.content p{
+    font-size: 19px;
+    color: #fff;
+}
+
+.content > *{
+    transform: translateY(25px);
+    transition: transform 0.6s ;
+}
+
+.content:hover > *{
+    transform: translateY(0px);
+}
+
+
+#pag1{
+     background-color: #695bb8 ;
+}
+
+
+
+#pag2{
+    background-color: rgb(88, 20, 197);
+
+}
+
+.imaged{
+    float:left;
+    margin-left:  30px ;
+    margin-right: 30px;
+    border-radius: 10px;
+    border: #000000 1px solid;
+}
+
+.cer{
+    margin-right: 50px;
+}
+
+#pag3{
+    background-color: #695bb8 ;
+}
+
+.ttt{
+    float: left;
+    margin-left: 30px;
+    margin-right: 30px;
+    border-radius: 10px;
+    border: #000000 1px solid;
+}
+
+.xy{
+    margin-right: 50px;
+}
